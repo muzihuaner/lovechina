@@ -1,28 +1,72 @@
+<!--
+ *你可能会认为你读得懂以下的代码。但是你不会懂的，相信我吧。
+ * 要是你尝试玩弄这段代码的话，你将会在无尽的通宵中不断地咒骂自己为什么会认为自己聪明到可以优化这段代码。
+ * 现在请关闭这个文件去玩点别的吧!
 
+
+ * ░░░░░░░░░░░░░░░░░░░░░░░░▄░░
+ * ░░░░░░░░░▐█░░░░░░░░░░░▄▀▒▌░
+ * ░░░░░░░░▐▀▒█░░░░░░░░▄▀▒▒▒▐
+ * ░░░░░░░▐▄▀▒▒▀▀▀▀▄▄▄▀▒▒▒▒▒▐
+ * ░░░░░▄▄▀▒░▒▒▒▒▒▒▒▒▒█▒▒▄█▒▐
+ * ░░░▄▀▒▒▒░░░▒▒▒░░░▒▒▒▀██▀▒▌
+ * ░░▐▒▒▒▄▄▒▒▒▒░░░▒▒▒▒▒▒▒▀▄▒▒
+ * ░░▌░░▌█▀▒▒▒▒▒▄▀█▄▒▒▒▒▒▒▒█▒▐
+ * ░▐░░░▒▒▒▒▒▒▒▒▌██▀▒▒░░░▒▒▒▀▄
+ * ░▌░▒▄██▄▒▒▒▒▒▒▒▒▒░░░░░░▒▒▒▒
+ * ▀▒▀▐▄█▄█▌▄░▀▒▒░░░░░░░░░░▒▒▒
+ * 单身狗就这样默默地看着你，一句话也不说
+ -->
 <html lang="en">
-<head>
-<head>
-  <meta charset='UTF-8'>
-  <meta name='viewport' content='width=device-width,maximum-scale=1.0,minimum-scale=1.0'>
-  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
-  <title>国旗头像生成器</title>
-  <style>
-    a:link{color:#fff;text-decoration: none;}
-    a:visited{color:#fff;}
-    #export{display:none;margin:0 auto;width:250px;height:250px;margin-top:50px;margin-bottom:50px}
-    .operation-btns .o-btn1{background-size:11.6rem 4.325rem}
-    .operation-btns .o-btn2{background-size:11.6rem 3.75rem}
-    center{color: #fff;}
-  </style>
-  <link rel="stylesheet" type="text/css" href="https://qnlite.gtimg.com/qqnewslite/css/r-nationaldayhead.872d8e4c.css">
 
-</head>
+<head>
+
+  <head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width,maximum-scale=1.0,minimum-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>国旗头像生成器</title>
+    <style>
+      a:link {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: #fff;
+      }
+
+      #export {
+        display: none;
+        margin: 0 auto;
+        width: 250px;
+        height: 250px;
+        margin-top: 50px;
+        margin-bottom: 50px
+      }
+
+      .operation-btns .o-btn1 {
+        background-size: 11.6rem 4.325rem
+      }
+
+      .operation-btns .o-btn2 {
+        background-size: 11.6rem 3.75rem
+      }
+
+      center {
+        color: #fff;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+
 <body>
   <div class="wrapper">
     <img src="" alt="" class="img-load" style="width: 9.5rem; position: fixed; top: 0px; left: -9999px;">
     <div class="operation-header">
       <div class="h-title">
-        
+
       </div>
     </div>
     <div class="operation-box">
@@ -44,120 +88,296 @@
     </div>
 
     <div class="operation-done">
-      <img src="https://mat1.gtimg.com/bbs/qqnewslite/20190924/act-done-happy.png" alt="" class="act-done-happy">
+      <img src="imgs/tu/act-done-happy.png" alt="" class="act-done-happy">
     </div>
 
     <center>
       此生无悔入华夏,来世还在种花家!<br>
-      使用本服务需遵守<a rel="nofollow" href="http://www.chinaflag.org.cn/GuoQiFaGui/201474141857955.html" target="_blank" rel="noopener noreferrer" class="nya-btn">《中华人民共和国国旗法》</a>
-      <p>微信公众号</p><br><p><img alt="感谢支持！" src="https://gcore.jsdelivr.net/gh/muzihuaner/huancdn/img/20210520145355.webp" width="100" height="100" /></p>
-    <script type="text/javascript" src="https://js.users.51.la/20375507.js"></script>
+      使用本服务需遵守<a rel="nofollow" href="http://www.gov.cn/guoqing/guoqi/index.htm" target="_blank"
+        rel="noopener noreferrer" class="nya-btn">《中华人民共和国国旗法》</a>
+      <p>微信公众号</p><br>
+      <p><img alt="感谢支持！" src="https://cdn.jsdelivr.net/gh/muzihuaner/huancdn/img/20210520145355.webp" width="100"
+          height="100" /></p>
+      <script type="text/javascript" src="https://js.users.51.la/20375507.js"></script>
     </center>
-    <audio autoplay="true" loop="true"> <source src="whwdzg.mp3"></audio>
+    <audio autoplay="true" loop="true">
+      <source src="whwdzg.mp3">
+    </audio>
+    <!-- <script type='text/javascript'>
+      const handler = setInterval(function () { console.clear(); const before = new Date(); debugger; const after = new Date(); const cost = after.getTime() - before.getTime(); if (cost > 100) { } }, 1);
+      //屏蔽右键菜单
+      document.oncontextmenu = function (event) {
+        if (window.event) {
+          event = window.event;
+        }
+        try {
+          var the = event.srcElement;
+          if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) {
+            return false;
+          }
+          return true;
+        } catch (e) {
+          return false;
+        }
+      }
+      //屏蔽粘贴
+      document.onpaste = function (event) {
+        if (window.event) {
+          event = window.event;
+        }
+        try {
+          var the = event.srcElement;
+          if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) {
+            return false;
+          }
+          return true;
+        } catch (e) {
+          return false;
+        }
+      }
+      //屏蔽复制
+
+      //屏蔽剪切
+      document.oncut = function (event) {
+        if (window.event) {
+          event = window.event;
+        }
+        try {
+          var the = event.srcElement;
+          if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")) {
+            return false;
+          }
+          return true;
+        } catch (e) {
+          return false;
+        }
+      }
+      //禁止f12
+
+      function fuckyou() {
+        window.open("https://huangetech.gitee.io/lovechina", "_blank"); //新窗口打开页面
+        window.close(); //关闭当前窗口(防抽)
+        window.location = "about:blank"; //将当前窗口跳转置空白页
+      }
+      //禁止Ctrl+U
+      var arr = [123, 17, 18];
+      document.oncontextmenu = new Function("event.returnValue=false;"), //禁用右键
+
+              window.onkeydown = function (e) {
+                var keyCode = e.keyCode || e.which || e.charCode;
+                var ctrlKey = e.ctrlKey || e.metaKey;
+                console.log(keyCode + "--" + keyCode);
+                if (ctrlKey && keyCode == 85) {
+                  e.preventDefault();
+                }
+                if (arr.indexOf(keyCode) > -1) {
+                  e.preventDefault();
+                }
+              }
+
+      function ck() {
+        console.profile();
+        console.profileEnd();
+        //我们判断一下profiles里面有没有东西，如果有，肯定有人按F12了，没错！！
+        if (console.clear) {
+          console.clear()
+        };
+        if (typeof console.profiles == "object") {
+          return console.profiles.length > 0;
+        }
+      }
+
+      function hehe() {
+        if ((window.console && (console.firebug || console.table && /firebug/i.test(console.table()))) || (
+                typeof opera ==
+                'object' && typeof opera.postError == 'function' && console.profile.length > 0)) {
+          fuckyou();
+        }
+        if (typeof console.profiles == "object" && console.profiles.length > 0) {
+          fuckyou();
+        }
+      }
+      hehe();
+      window.onresize = function () {
+        if ((window.outerHeight - window.innerHeight) > 100)
+                //判断当前窗口内页高度和窗口高度，如果差值大于100，那么呵呵
+          fuckyou();
+      }
+
+      document.onkeydown = function (event) {
+        if ((event.keyCode == 112) || //屏蔽 F1
+                (event.keyCode == 113) || //屏蔽 F2
+                (event.keyCode == 114) || //屏蔽 F3
+                (event.keyCode == 115) || //屏蔽 F4
+                // (event.keyCode == 116) || //屏蔽 F5
+                (event.keyCode == 117) || //屏蔽 F6
+                (event.keyCode == 118) || //屏蔽 F7
+                (event.keyCode == 119) || //屏蔽 F8
+                (event.keyCode == 120) || //屏蔽 F9
+                (event.keyCode == 121) || //屏蔽 F10
+                (event.keyCode == 122) || //屏蔽 F11
+                (event.keyCode == 123)) //屏蔽 F12
+        {
+          return false;
+        }
+      }
+      window.onhelp = function () {
+        return false;
+      }
+    </script> -->
+    <!-- <script>
+var a = 'retrtrfdcfvvvv';
+var ym = window.location;
+var ym2 = 'huangetech.gitee.io/lovechina';
+var ym3 = String(ym);
+function suan(a){
+var re = a.substring(0,2);
+var tr = a.substring(2,4);
+var tr2 = a.substring(4,6);
+var fd = a.substring(6,8);
+var cf = a.substring(8,10);
+var vv = a.substring(10,12);
+var vv2 = a.substring(12,14);
+re = 'h';
+tr = 't';
+tr2 ='t';
+fd = 'p';
+cf = ':';
+vv = '/';
+vv2 = '/';
+var p = re+tr+tr2+fd+cf+vv+vv2;
+return p;
+}
+if (ym3.indexOf(ym2) == -1 ) {
+alert(ym2);
+// var av = ym3;
+var b = suan(a) + 'huangetech.gitee.io/lovechina' + '/';
+window.location = b;
+}
+</script> -->
   </div>
   <div style='display: none'>
     <img id='img' src='' alt='' />
-    <img class='hide' id='hat0' src='./hat0.png' />
-    <img class='hide' id='hat1' src='./hat1.png' />
-    <img class='hide' id='hat2' src='./hat2.png' />
-    <img class='hide' id='hat3' src='./hat3.png' />
-    <img class='hide' id='hat4' src='./hat4.png' />
-    <img class='hide' id='hat5' src='./hat5.png' />
-    <img class='hide' id='hat6' src='./hat6.png' />
-    <img class='hide' id='hat7' src='./hat7.png' />
-    <img class='hide' id='hat8' src='./hat8.png' />
-    <img class='hide' id='hat9' src='./hat9.png' />
-    <img class='hide' id='hat10' src='./hat10.png' />
+    <img class='hide' id='hat0' src='imgs/heads/hat0.png' />
+    <img class='hide' id='hat1' src='imgs/heads/hat1.webp' />
+    <img class='hide' id='hat2' src='imgs/heads/hat2.png' />
+    <img class='hide' id='hat3' src='imgs/heads/hat3.png' />
+    <img class='hide' id='hat4' src='imgs/heads/hat4.png' />
+    <img class='hide' id='hat5' src='imgs/heads/hat5.png' />
+    <img class='hide' id='hat6' src='imgs/heads/hat6.png' />
+    <img class='hide' id='hat7' src='imgs/heads/hat7.png' />
+    <img class='hide' id='hat8' src='imgs/heads/hat8.png' />
+    <img class='hide' id='hat9' src='imgs/heads/hat9.png' />
+    <img class='hide' id='hat10' src='imgs/heads/hat10.png' />
+    <img class='hide' id='hat11' src='imgs/heads/hat11.png' />
+    <img class='hide' id='hat12' src='imgs/heads/hat12.png' />
+    <img class='hide' id='hat13' src='imgs/heads/hat13.png' />
+    <img class='hide' id='hat14' src='imgs/heads/hat14.png' />
+    <img class='hide' id='hat15' src='imgs/heads/hat15.png' />
+    <img class='hide' id='hat16' src='imgs/heads/hat16.png' />
+    <img class='hide' id='hat17' src='imgs/heads/hat17.png' />
+    <img class='hide' id='hat18' src='imgs/heads/hat18.png' />
+    <img class='hide' id='hat19' src='imgs/heads/hat19.png' />
+    <img class='hide' id='hat20' src='imgs/heads/hat20.png' />
+    <img class='hide' id='hat21' src='imgs/heads/hat21.png' />
+    <img class='hide' id='hat22' src='imgs/heads/hat22.png' />
+    <img class='hide' id='hat23' src='imgs/heads/hat23.png' />
+    <img class='hide' id='hat24' src='imgs/heads/hat24.png' />
+    <img class='hide' id='hat25' src='imgs/heads/hat25.png' />
+    <img class='hide' id='hat26' src='imgs/heads/hat26.png' />
+    <img class='hide' id='hat27' src='imgs/heads/hat27.png' />
+    <img class='hide' id='hat28' src='imgs/heads/hat28.webp' />
   </div>
 
-<script src="https://lib.baomitu.com/fabric.js/2.0.0-rc.3/fabric.min.js"></script>
-<script>
-  var cvs = document.getElementById("cvs");
-  var ctx = cvs.getContext("2d");
-  var exportImage = document.getElementById("export");
-  var img = document.getElementById("img");
-  var hat = "hat0";
-  var canvasFabric;
-  var hatInstance;
-  //var screenWidth = window.screen.width < 500 ? window.screen.width : 300;
-  var screenWidth = document.getElementById("content").scrollHeight;
-  function viewer() {
-    var file = document.getElementById("upload").files[0];
-    console.log(file);
-    var reader = new FileReader;
-    if (file) {
-      reader.readAsDataURL(file);
-      reader.onload = function(e) {
-        img.src = reader.result;
-        img.onload = function() {
-          img2Cvs(img)
+  <script src="https://cdnjs.loli.net/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+  <script>
+    var cvs = document.getElementById("cvs");
+    var ctx = cvs.getContext("2d");
+    var exportImage = document.getElementById("export");
+    var img = document.getElementById("img");
+    var hat = "hat0";
+    var canvasFabric;
+    var hatInstance;
+    //var screenWidth = window.screen.width < 500 ? window.screen.width : 300;
+    var screenWidth = document.getElementById("content").scrollHeight;
+    function viewer() {
+      var file = document.getElementById("upload").files[0];
+      console.log(file);
+      var reader = new FileReader;
+      if (file) {
+        reader.readAsDataURL(file);
+        reader.onload = function (e) {
+          img.src = reader.result;
+          img.onload = function () {
+            img2Cvs(img)
+          }
         }
+      } else {
+        img.src = ""
       }
-    } else {
-      img.src = ""
     }
-  }
-  function img2Cvs(img) {
-    cvs.width = img.width;
-    cvs.height = img.height;
-    cvs.style.display = "block";
-    canvasFabric = new fabric.Canvas("cvs", {
-      width: screenWidth,
-      height: screenWidth,
-      backgroundImage: new fabric.Image(img, {
-        scaleX: screenWidth / img.width,
-        scaleY: screenWidth / img.height
-      })
-    });
-    changeHat();
+    function img2Cvs(img) {
+      cvs.width = img.width;
+      cvs.height = img.height;
+      cvs.style.display = "block";
+      canvasFabric = new fabric.Canvas("cvs", {
+        width: screenWidth,
+        height: screenWidth,
+        backgroundImage: new fabric.Image(img, {
+          scaleX: screenWidth / img.width,
+          scaleY: screenWidth / img.height
+        })
+      });
+      changeHat();
 
-    document.getElementsByClassName("o-btn1")[0].style.display = "none";
-    document.getElementsByClassName("o-btn2")[0].style.display = "block";
-    //document.getElementById("tip").style.opacity = 1
-  }
-  function changeHat() {
-    document.getElementById(hat).style.display = "none";
-    var hats = document.getElementsByClassName("hide");
-    hat = "hat" + (+hat.replace("hat", "") + 1) % hats.length;
-    var hatImage = document.getElementById(hat);
-    hatImage.style.display = "block";
-    if (hatInstance) {
-      canvasFabric.remove(hatInstance)
+      document.getElementsByClassName("o-btn1")[0].style.display = "none";
+      document.getElementsByClassName("o-btn2")[0].style.display = "block";
+      //document.getElementById("tip").style.opacity = 1
     }
-    console.log(hatImage.width);
-    console.log(100 / hatImage.width);
-    hatInstance = new fabric.Image(hatImage, {
-      top: 0,
-      left: 0,
-      scaleX: screenWidth / hatImage.width,
-      scaleY: screenWidth / hatImage.height,
-      cornerColor: "#0b3a42",
-      cornerStrokeColor: "#fff",
-      cornerStyle: "circle",
-      transparentCorners: false,
-      rotatingPointOffset: 30
-    });
-    hatInstance.setControlVisible("bl", false);
-    hatInstance.setControlVisible("tr", false);
-    hatInstance.setControlVisible("tl", false);
-    hatInstance.setControlVisible("mr", false);
-    hatInstance.setControlVisible("mt", false);
-    canvasFabric.add(hatInstance)
-  }
-  function exportFunc() {
-    document.getElementsByClassName("operation-box")[0].style.display = "none";
-    document.getElementsByClassName("operation-btns")[0].style.display = "none";
+    function changeHat() {
+      document.getElementById(hat).style.display = "none";
+      var hats = document.getElementsByClassName("hide");
+      hat = "hat" + (+hat.replace("hat", "") + 1) % hats.length;
+      var hatImage = document.getElementById(hat);
+      hatImage.style.display = "block";
+      if (hatInstance) {
+        canvasFabric.remove(hatInstance)
+      }
+      console.log(hatImage.width);
+      console.log(100 / hatImage.width);
+      hatInstance = new fabric.Image(hatImage, {
+        top: 0,
+        left: 0,
+        scaleX: screenWidth / hatImage.width,
+        scaleY: screenWidth / hatImage.height,
+        cornerColor: "#0b3a42",
+        cornerStrokeColor: "#fff",
+        cornerStyle: "circle",
+        transparentCorners: false,
+        rotatingPointOffset: 30
+      });
+      hatInstance.setControlVisible("bl", false);
+      hatInstance.setControlVisible("tr", false);
+      hatInstance.setControlVisible("tl", false);
+      hatInstance.setControlVisible("mr", false);
+      hatInstance.setControlVisible("mt", false);
+      canvasFabric.add(hatInstance)
+    }
+    function exportFunc() {
+      document.getElementsByClassName("operation-box")[0].style.display = "none";
+      document.getElementsByClassName("operation-btns")[0].style.display = "none";
 
-    /*document.getElementById("exportBtn").style.display = "none";
-    document.getElementById("tip").innerHTML = "长按图片保存或分享";
-    document.getElementById("change").style.display = "none";*/
-    cvs.style.display = "none";
-    exportImage.style.display = "block";
-    exportImage.src = canvasFabric.toDataURL({
-      width: screenWidth,
-      height: screenWidth
-    });
-    alert('长按图片保存或分享');
-  }
-</script>
+      /*document.getElementById("exportBtn").style.display = "none";
+      document.getElementById("tip").innerHTML = "长按图片保存或分享";
+      document.getElementById("change").style.display = "none";*/
+      cvs.style.display = "none";
+      exportImage.style.display = "block";
+      exportImage.src = canvasFabric.toDataURL({
+        width: screenWidth,
+        height: screenWidth
+      });
+      alert('长按图片保存或分享');
+    }
+  </script>
+
 </html>
